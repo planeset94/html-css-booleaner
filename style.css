@@ -23,3 +23,20 @@ header{
     bottom:15px;
     left:5px;    
 }
+
+h1{
+    font-size: 50px;
+}
+
+.paragraph{
+    font-size:20px;
+    color:#969696;
+    }
+p>a{
+    text-decoration: none;
+    color: #38b2e8;
+}
+
+.small-pragraph{
+    font-size: 10px;
+}
