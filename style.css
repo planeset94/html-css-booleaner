@@ -10,11 +10,12 @@ header{
     background-image: url(./img/pattern.png);
     background-size: 500px;
     background-position: center top;
-    
-    position: relative;
-    
-    
+    position: relative;    
 }
+
+
+
+
 
 .logo{
     width: 15vw;
@@ -42,7 +43,7 @@ p>a{
 }
 
 .paragraph{
-    font-size:17px;
+    font-size:20px;
 }
 
 span{
@@ -50,6 +51,37 @@ span{
 }
 
 ul{
-    position:absolute;
-    left:-20px;
+    position:relative;
+    left:-25px;
+}
+table{
+    border-collapse: collapse;
+}
+table .colonna-1{
+    width: 25%;
+}
+table .colonna-2{
+    width: 25%;
+}
+table .colonna-3{
+    width: 50%;
+}
+
+table th {
+    text-align: left;
+}
+
+
+
+thead{
+    background-color: #20a9e5;
+    color:white;  
+}
+
+tbody tr:first-child{
+    background-color: #b1e5f2;
+}
+
+tbody tr:last-child{
+    background-color: #b1e5f2;
 }
