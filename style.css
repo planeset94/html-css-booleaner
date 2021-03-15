@@ -29,7 +29,7 @@ h1{
     font-size: 50px;
 }
 
-.paragraph.first{
+.paragraph.grey{
     color:#969696;
     }
 
@@ -84,4 +84,17 @@ tbody tr:first-child{
 
 tbody tr:last-child{
     background-color: #b1e5f2;
+}
+
+.container{
+    position:relative;
+}
+
+.container>div{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    position:absolute;
+    top:5px;
+    left: 10px;
 }
