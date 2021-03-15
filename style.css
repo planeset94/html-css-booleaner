@@ -1,0 +1,25 @@
+body{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 19vh;
+    width: auto;
+    background-color: #4ea0ff;
+    background-image: url(./img/pattern.png);
+    background-size: 500px;
+    background-position: center top;
+    
+    position: relative;
+    
+    
+}
+
+.logo{
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    bottom:15px;
+    left:5px;    
+}
