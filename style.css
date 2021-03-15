@@ -28,10 +28,10 @@ h1{
     font-size: 50px;
 }
 
-.paragraph{
-    font-size:20px;
+.paragraph.first{
     color:#969696;
     }
+
 p>a{
     text-decoration: none;
     color: #38b2e8;
@@ -39,4 +39,17 @@ p>a{
 
 .small-pragraph{
     font-size: 10px;
+}
+
+.paragraph{
+    font-size:17px;
+}
+
+span{
+    background-color:yellow;
+}
+
+ul{
+    position:absolute;
+    left:-20px;
 }
