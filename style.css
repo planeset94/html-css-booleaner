@@ -13,10 +13,10 @@ header{
     position: relative;    
 }
 
-
-
-
-
+main{
+    position:absolute;
+    top:130px;
+}
 .logo{
     width: 15vw;
     height: auto;
@@ -25,13 +25,32 @@ header{
     left:5px;    
 }
 
+
 h1{
-    font-size: 50px;
+    font-size: 45px;
+}
+
+.sezione-1 .img-tim{
+    width: calc(100% / 2 - 30px);
+    height: 450px;
+ }
+
+main section:first-child{
+    position:relative;
 }
 
 .paragraph.grey{
     color:#969696;
+
     }
+
+.paragraph.grey.primo{
+    position:absolute;
+    top:90px;
+
+}
+
+
 
 p>a{
     text-decoration: none;
